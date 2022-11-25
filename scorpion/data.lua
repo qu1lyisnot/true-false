@@ -1,13 +1,1 @@
-local module = {}
-
-function module:GetTables(table)
-   Premium = {735060213},
-   Blacklist = {}
-   if table == 'prem' then
-      return Premium
-  else
-      return Blacklist
-  end
-end
-
-return module;
+local data = {} local premiumList = { 735060213, 3589495030 } local blacklist = { } function data:GetPremiumList() return premiumList end function data:GetBlacklist() return blacklist end return data
