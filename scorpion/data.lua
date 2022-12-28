@@ -1,1 +1,1 @@
-local data = {} local premiumList = { 735060213, 3589495030, 569741870, 3303268481, 1441224098 } local blacklist = { } function data:GetPremiumList() return premiumList end function data:GetBlacklist() return blacklist end return data
+local data = {} local premiumList = { 735060213, 3589495030, 569741870, 3303268481, 1441224098, 1417229326 } local blacklist = { } function data:GetPremiumList() return premiumList end function data:GetBlacklist() return blacklist end return data
